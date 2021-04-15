@@ -10,6 +10,6 @@ public class Utils {
     }
 
     public static void expect(boolean value, String msg) throws Exception {
-        if(value) throw new Exception(msg);
+        if(!value) throw new Exception(msg);
     }
 }
